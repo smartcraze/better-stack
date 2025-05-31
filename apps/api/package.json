@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "store": "*"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "axios": "^1.9.0",
+    "express": "^5.1.0"
+  }
+}
