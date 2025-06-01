@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prisma": "^6.8.2"
   },
   "exports": {
     "./client": "./index.ts"
@@ -12,7 +13,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@prisma/client": "6.8.2",
-    "prisma": "^6.8.2"
+    "@prisma/client": "6.8.2"
   }
 }
